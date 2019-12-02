@@ -1,0 +1,6 @@
+[package]
+name = "server"
+version = "3.0.0-beta"
+
+[dependencies]
+shared = { path = "../shared", version = "3.0.0-beta" }
