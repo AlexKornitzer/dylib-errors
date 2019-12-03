@@ -1,3 +1,4 @@
+extern crate env_logger;
 #[macro_use]
 extern crate shared;
 extern crate nng; // NOTE: Still have nng errors even if we don't use the re-export...
