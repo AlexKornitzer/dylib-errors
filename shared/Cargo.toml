@@ -3,11 +3,7 @@ name = "shared"
 version = "3.0.0-beta"
 
 [dependencies]
-bincode = "1.2"
-consul = { git = 'https://github.com/AlexKornitzer/consul-rust', branch = 'refactor' }
-log = "0.4"
 nng = "0.5"
-serde = { version = "1.0", features = ["serde_derive"] }
 
 [lib]
 crate-type = ["dylib"]
