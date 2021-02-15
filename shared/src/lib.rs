@@ -1,3 +1,9 @@
-pub extern crate library;
+pub struct Test;
 
-pub struct A {}
+impl Test {
+    pub fn new() -> Self {
+        let _ = foo::foo();
+        let _ = foo::bar();
+        Self
+    }
+}
