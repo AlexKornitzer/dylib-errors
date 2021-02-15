@@ -1,3 +1,3 @@
-pub extern crate consul;
+pub extern crate mongodb;
 
 pub struct A {}

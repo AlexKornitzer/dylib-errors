@@ -4,7 +4,7 @@ version = "3.0.0-beta"
 edition = "2018"
 
 [dependencies]
-consul = { git = 'https://github.com/AlexKornitzer/consul-rust', branch = 'refactor' }
+mongodb = "2.0.0-alpha"
 
 [lib]
 crate-type = ["dylib"]
