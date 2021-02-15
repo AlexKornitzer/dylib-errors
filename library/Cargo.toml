@@ -1,0 +1,9 @@
+[package]
+name = "library"
+version = "0.1.0"
+authors = ["Alex Kornitzer <alex.kornitzer@f-secure.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.11"
+tokio = { version = "1.0", features = ["rt", "rt-multi-thread"] }

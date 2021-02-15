@@ -1,3 +1,3 @@
-pub extern crate mongodb;
+pub extern crate library;
 
 pub struct A {}

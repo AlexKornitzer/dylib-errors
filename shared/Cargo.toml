@@ -4,7 +4,7 @@ version = "3.0.0-beta"
 edition = "2018"
 
 [dependencies]
-mongodb = "2.0.0-alpha"
+library = { path = "../library" }
 
 [lib]
 crate-type = ["dylib"]
